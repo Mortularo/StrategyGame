@@ -1,8 +1,9 @@
+using Abstractions.Commands;
+using Abstractions.Commands.CommandInterfaces;
 using UnityEngine;
 
-public class MainBuilding : MonoBehaviour, IUnitProducing, ISelectable
+public class MainBuilding : CommandExecutorBase<IProduceCommand>, ISelectable
 {
-    [SerializeField] private GameObject _unitPrefab;
     [SerializeField] private Transform _unitsParent;
 
     [SerializeField] private float _maxHealth = 1000;
@@ -14,9 +15,8 @@ public class MainBuilding : MonoBehaviour, IUnitProducing, ISelectable
     public float MaxHealth => _maxHealth;
     public Sprite Icon => _icon;
 
-    public void ProduceUnit()
-    {
-        Instantiate(_unitPrefab, new Vector3(Random.Range(-10, 10), 0, 
-            Random.Range(-10, 10)), Quaternion.identity, _unitsParent);
-    }
+    public override void ExecuteSpecificCommand(IProduceCommand command) =>
+        Instantiate(command.UnitPrefab, new Vector3(Random.Range(-10, 10), 0,
+        Random.Range(-10, 10)), Quaternion.identity, _unitsParent);
+
 }
