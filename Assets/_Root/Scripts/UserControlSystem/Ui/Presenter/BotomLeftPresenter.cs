@@ -16,7 +16,7 @@ public class BotomLeftPresenter : MonoBehaviour
     void Start()
     {
         _selectedValue.OnSelected += onSelected;
-        onSelected(_selectedValue.CurentValue);
+        onSelected(_selectedValue.CurrentValue);
     }
 
     private void onSelected(ISelectable selected)
