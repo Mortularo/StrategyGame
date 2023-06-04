@@ -1,20 +1,19 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace UserControlSystem
 {
-    [CreateAssetMenu(fileName = nameof(SelectableValue), menuName = "StrategyGame/"
+    [CreateAssetMenu(fileName = nameof(SelectableValue), menuName = "Strategy Game/"
     + nameof(SelectableValue), order = 0)]
     public class SelectableValue : ScriptableObject
     {
-        public ISelectable CurentValue { get; private set; }
+        public ISelectable CurrentValue { get; private set; }
         public Action<ISelectable> OnSelected;
+        public Action<ISelectable> OnNewValue;
 
         public void SetValue(ISelectable value)
         {
-            CurentValue = value;
+            CurrentValue = value;
             OnSelected?.Invoke(value);
         }
     }

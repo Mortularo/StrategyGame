@@ -10,7 +10,7 @@ internal class OutlinePresenter : MonoBehaviour
     void Start()
     {
         _selectedValue.OnSelected += onClick;
-        onClick(_selectedValue.CurentValue);
+        onClick(_selectedValue.CurrentValue);
     }
     private void onClick(ISelectable selected)
     {
