@@ -1,0 +1,27 @@
+{
+    "name": "Presenter",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2b0376f4ce54ced4f8ce6be37d56f60d",
+        "GUID:df0863bf1788ef64f9ae1f4cd0901ceb",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+<<<<<<< Updated upstream:Assets/_Root/Scripts/UserControlSystem/Ui/Presenter/Presenter.asmdef
+        "GUID:9573e8715b1fb604ab330edaeca863c4"
+=======
+        "GUID:fa9b46769359a6549ad7bbf3c59becd2",
+        "GUID:0cad91ffe5e547e4db06c42c178ec932",
+        "GUID:81aab3ea1f711244db1303c564fa3695",
+        "GUID:02cdaf0a65fefcb46a162ccf3b3f4960",
+        "GUID:560b04d1a97f54a4e82edc0cbbb69285"
+>>>>>>> Stashed changes:Assets/_Root/Scripts/UserControlSystem/Presenter/Presenter.asmdef
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
