@@ -2,7 +2,14 @@
     "name": "UserControlSystem",
     "rootNamespace": "",
     "references": [
+<<<<<<< Updated upstream
         "GUID:3cdbb46fdaa076d4e8868917f61a6b17"
+=======
+        "GUID:47e17cb1311e06b42b40b1cc52c0eb9d",
+        "GUID:fa9b46769359a6549ad7bbf3c59becd2",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:02cdaf0a65fefcb46a162ccf3b3f4960"
+>>>>>>> Stashed changes
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

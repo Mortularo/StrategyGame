@@ -1,0 +1,20 @@
+{
+    "name": "View",
+    "rootNamespace": "",
+<<<<<<< Updated upstream:Assets/_Root/Scripts/UserControlSystem/Ui/View/View.asmdef
+    "references": [],
+=======
+    "references": [
+        "GUID:fa9b46769359a6549ad7bbf3c59becd2"
+    ],
+>>>>>>> Stashed changes:Assets/_Root/Scripts/UserControlSystem/View/View.asmdef
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
