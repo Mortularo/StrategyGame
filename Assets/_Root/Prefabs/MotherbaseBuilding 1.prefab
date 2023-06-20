@@ -1,6 +1,10 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<< Updated upstream:Assets/_Root/Prefabs/MotherbaseBuilding 1.prefab
 --- !u!1 &5347897835084189681
+=======
+--- !u!1 &8620866097025357065
+>>>>>>> Stashed changes:Assets/_Root/Prefabs/MainBuilding.prefab
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,6 +12,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< Updated upstream:Assets/_Root/Prefabs/MotherbaseBuilding 1.prefab
   - component: {fileID: 5347897835083895761}
   - component: {fileID: 5347897835087320049}
   - component: {fileID: 5347897835086188849}
@@ -94,6 +99,16 @@ GameObject:
   - component: {fileID: 5347897835083895763}
   - component: {fileID: 5347897835087320051}
   - component: {fileID: 5347897835086188851}
+=======
+  - component: {fileID: 8620866097024862505}
+  - component: {fileID: 8620866097008008585}
+  - component: {fileID: 5876125985306103589}
+  - component: {fileID: 8868704935891823692}
+  - component: {fileID: 8175985206539369301}
+  - component: {fileID: 1708550457730667478}
+  - component: {fileID: 7152307324629277198}
+  - component: {fileID: 9033631897831830337}
+>>>>>>> Stashed changes:Assets/_Root/Prefabs/MainBuilding.prefab
   m_Layer: 0
   m_Name: VegetationLarge04_LOD02
   m_TagString: Untagged
@@ -101,12 +116,17 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< Updated upstream:Assets/_Root/Prefabs/MotherbaseBuilding 1.prefab
 --- !u!4 &5347897835083895763
+=======
+--- !u!4 &8620866097024862505
+>>>>>>> Stashed changes:Assets/_Root/Prefabs/MainBuilding.prefab
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/_Root/Prefabs/MotherbaseBuilding 1.prefab
   m_GameObject: {fileID: 5347897835084189683}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
@@ -207,12 +227,31 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!205 &5347897835071162229
+=======
+  m_GameObject: {fileID: 8620866097025357065}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.2060585, y: 0.13223076, z: -0.5401987}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8620866097024862507}
+  - {fileID: 8620866097024862509}
+  - {fileID: 8620866097024862511}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!205 &8620866097008008585
+>>>>>>> Stashed changes:Assets/_Root/Prefabs/MainBuilding.prefab
 LODGroup:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/_Root/Prefabs/MotherbaseBuilding 1.prefab
   m_GameObject: {fileID: 5347897835084189685}
+=======
+  m_GameObject: {fileID: 8620866097025357065}
+>>>>>>> Stashed changes:Assets/_Root/Prefabs/MainBuilding.prefab
   serializedVersion: 2
   m_LocalReferencePoint: {x: 0.6409931, y: 3.5841007, z: 0.8232684}
   m_Size: 7.333728
@@ -223,6 +262,7 @@ LODGroup:
   - screenRelativeHeight: 0.25
     fadeTransitionWidth: 0
     renderers:
+<<<<<<< Updated upstream:Assets/_Root/Prefabs/MotherbaseBuilding 1.prefab
     - renderer: {fileID: 5347897835086188855}
   - screenRelativeHeight: 0.125
     fadeTransitionWidth: 0
@@ -268,33 +308,121 @@ MonoBehaviour:
   _maxHealth: 1000
   _icon: {fileID: 21300000, guid: c1d2ba937c58a22468227e9d235802bb, type: 3}
 --- !u!65 &4545487629656098862
+=======
+    - renderer: {fileID: 8620866097023093707}
+  - screenRelativeHeight: 0.125
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 8620866097023093709}
+  - screenRelativeHeight: 0.01
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 8620866097023093711}
+  m_Enabled: 1
+--- !u!65 &5876125985306103589
+>>>>>>> Stashed changes:Assets/_Root/Prefabs/MainBuilding.prefab
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/_Root/Prefabs/MotherbaseBuilding 1.prefab
   m_GameObject: {fileID: 5347897835084189685}
+=======
+  m_GameObject: {fileID: 8620866097025357065}
+>>>>>>> Stashed changes:Assets/_Root/Prefabs/MainBuilding.prefab
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 4, y: 7, z: 4}
   m_Center: {x: 0, y: 3.5, z: 0}
+<<<<<<< Updated upstream:Assets/_Root/Prefabs/MotherbaseBuilding 1.prefab
 --- !u!114 &5362750260387825558
+=======
+--- !u!114 &8868704935891823692
+>>>>>>> Stashed changes:Assets/_Root/Prefabs/MainBuilding.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/_Root/Prefabs/MotherbaseBuilding 1.prefab
   m_GameObject: {fileID: 5347897835084189685}
+=======
+  m_GameObject: {fileID: 8620866097025357065}
+>>>>>>> Stashed changes:Assets/_Root/Prefabs/MainBuilding.prefab
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ff76777bc570b142b88fda1f410df6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream:Assets/_Root/Prefabs/MotherbaseBuilding 1.prefab
   _selectedValue: {fileID: 11400000, guid: a569cb2e939708841bc29653639fb6c3, type: 2}
   _outlineBase: {fileID: 7102463748793046644}
 --- !u!1 &5347897835084189687
+=======
+  _pivotPoint: {fileID: 8620866097024862505}
+  _maxHealth: 1000
+  _icon: {fileID: 21300000, guid: 28a748b1d0f65e8439b7494516ce436a, type: 3}
+--- !u!114 &8175985206539369301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8620866097025357065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b80f860f97c11344ad58e8489cf3818, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _unitsParent: {fileID: 0}
+  _maximumUnitsInQueue: 6
+--- !u!114 &1708550457730667478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8620866097025357065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 418e8d56af0c2b643adf972b7b386d9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7152307324629277198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8620866097025357065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a51c4308236bdd4449848bd639b8560c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &9033631897831830337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8620866097025357065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08eca9f7688a0a24685b89133b020c8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scriptableObjectInstallers: []
+  _monoInstallers:
+  - {fileID: 7152307324629277198}
+  _installerPrefabs: []
+  _autoRun: 1
+  _kernel: {fileID: 0}
+--- !u!1 &8620866097025357067
+>>>>>>> Stashed changes:Assets/_Root/Prefabs/MainBuilding.prefab
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -302,9 +430,15 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< Updated upstream:Assets/_Root/Prefabs/MotherbaseBuilding 1.prefab
   - component: {fileID: 5347897835083895767}
   - component: {fileID: 5347897835087320055}
   - component: {fileID: 5347897835086188855}
+=======
+  - component: {fileID: 8620866097024862507}
+  - component: {fileID: 8620866097024092427}
+  - component: {fileID: 8620866097023093707}
+>>>>>>> Stashed changes:Assets/_Root/Prefabs/MainBuilding.prefab
   m_Layer: 0
   m_Name: VegetationLarge04_LOD00
   m_TagString: Untagged
@@ -312,36 +446,61 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< Updated upstream:Assets/_Root/Prefabs/MotherbaseBuilding 1.prefab
 --- !u!4 &5347897835083895767
+=======
+--- !u!4 &8620866097024862507
+>>>>>>> Stashed changes:Assets/_Root/Prefabs/MainBuilding.prefab
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/_Root/Prefabs/MotherbaseBuilding 1.prefab
   m_GameObject: {fileID: 5347897835084189687}
+=======
+  m_GameObject: {fileID: 8620866097025357067}
+>>>>>>> Stashed changes:Assets/_Root/Prefabs/MainBuilding.prefab
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
+<<<<<<< Updated upstream:Assets/_Root/Prefabs/MotherbaseBuilding 1.prefab
   m_Father: {fileID: 5347897835083895765}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5347897835087320055
+=======
+  m_Father: {fileID: 8620866097024862505}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8620866097024092427
+>>>>>>> Stashed changes:Assets/_Root/Prefabs/MainBuilding.prefab
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/_Root/Prefabs/MotherbaseBuilding 1.prefab
   m_GameObject: {fileID: 5347897835084189687}
   m_Mesh: {fileID: 4300000, guid: 50b92cf3f08f03745bbc74de550c2dc7, type: 3}
 --- !u!23 &5347897835086188855
+=======
+  m_GameObject: {fileID: 8620866097025357067}
+  m_Mesh: {fileID: 4300000, guid: 50b92cf3f08f03745bbc74de550c2dc7, type: 3}
+--- !u!23 &8620866097023093707
+>>>>>>> Stashed changes:Assets/_Root/Prefabs/MainBuilding.prefab
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/_Root/Prefabs/MotherbaseBuilding 1.prefab
   m_GameObject: {fileID: 5347897835084189687}
+=======
+  m_GameObject: {fileID: 8620866097025357067}
+>>>>>>> Stashed changes:Assets/_Root/Prefabs/MainBuilding.prefab
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -377,7 +536,11 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+<<<<<<< Updated upstream:Assets/_Root/Prefabs/MotherbaseBuilding 1.prefab
 --- !u!1 &7102463748793046644
+=======
+--- !u!1 &8620866097025357069
+>>>>>>> Stashed changes:Assets/_Root/Prefabs/MainBuilding.prefab
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -385,22 +548,34 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< Updated upstream:Assets/_Root/Prefabs/MotherbaseBuilding 1.prefab
   - component: {fileID: 1263941914739595876}
   - component: {fileID: 7355863562957928943}
   - component: {fileID: 4392113516536206073}
+=======
+  - component: {fileID: 8620866097024862509}
+  - component: {fileID: 8620866097024092429}
+  - component: {fileID: 8620866097023093709}
+>>>>>>> Stashed changes:Assets/_Root/Prefabs/MainBuilding.prefab
   m_Layer: 0
   m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
+<<<<<<< Updated upstream:Assets/_Root/Prefabs/MotherbaseBuilding 1.prefab
   m_IsActive: 0
 --- !u!4 &1263941914739595876
+=======
+  m_IsActive: 1
+--- !u!4 &8620866097024862509
+>>>>>>> Stashed changes:Assets/_Root/Prefabs/MainBuilding.prefab
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/_Root/Prefabs/MotherbaseBuilding 1.prefab
   m_GameObject: {fileID: 7102463748793046644}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -411,20 +586,42 @@ Transform:
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7355863562957928943
+=======
+  m_GameObject: {fileID: 8620866097025357069}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8620866097024862505}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8620866097024092429
+>>>>>>> Stashed changes:Assets/_Root/Prefabs/MainBuilding.prefab
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/_Root/Prefabs/MotherbaseBuilding 1.prefab
   m_GameObject: {fileID: 7102463748793046644}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &4392113516536206073
+=======
+  m_GameObject: {fileID: 8620866097025357069}
+  m_Mesh: {fileID: 4300002, guid: 50b92cf3f08f03745bbc74de550c2dc7, type: 3}
+--- !u!23 &8620866097023093709
+>>>>>>> Stashed changes:Assets/_Root/Prefabs/MainBuilding.prefab
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/_Root/Prefabs/MotherbaseBuilding 1.prefab
   m_GameObject: {fileID: 7102463748793046644}
+=======
+  m_GameObject: {fileID: 8620866097025357069}
+>>>>>>> Stashed changes:Assets/_Root/Prefabs/MainBuilding.prefab
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -460,3 +657,89 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+<<<<<<< Updated upstream:Assets/_Root/Prefabs/MotherbaseBuilding 1.prefab
+=======
+--- !u!1 &8620866097025357071
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8620866097024862511}
+  - component: {fileID: 8620866097024092431}
+  - component: {fileID: 8620866097023093711}
+  m_Layer: 0
+  m_Name: VegetationLarge04_LOD02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8620866097024862511
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8620866097025357071}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8620866097024862505}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8620866097024092431
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8620866097025357071}
+  m_Mesh: {fileID: 4300004, guid: 50b92cf3f08f03745bbc74de550c2dc7, type: 3}
+--- !u!23 &8620866097023093711
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8620866097025357071}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 619565ea3e5275b40b150c832fc06191, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+>>>>>>> Stashed changes:Assets/_Root/Prefabs/MainBuilding.prefab

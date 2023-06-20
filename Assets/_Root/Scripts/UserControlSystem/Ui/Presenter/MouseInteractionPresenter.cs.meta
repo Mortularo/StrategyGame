@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream:Assets/_Root/Scripts/UserControlSystem/Ui/Presenter/MouseInteractionPresenter.cs.meta
 guid: c804c69394b2d9d43a86439d2867737c
+=======
+guid: b7ee32c2b0af8a74da51a6c20bcaa533
+>>>>>>> Stashed changes:Assets/_Root/Scripts/Abstractions/IAwaitable.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
