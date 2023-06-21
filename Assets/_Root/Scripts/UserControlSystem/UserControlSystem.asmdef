@@ -2,7 +2,15 @@
     "name": "UserControlSystem",
     "rootNamespace": "",
     "references": [
+<<<<<<< Updated upstream
         "GUID:3cdbb46fdaa076d4e8868917f61a6b17"
+=======
+        "Core",
+        "Abstractions",
+        "Unity.TextMeshPro",
+        "Utils",
+        "UniRx"
+>>>>>>> Stashed changes
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
