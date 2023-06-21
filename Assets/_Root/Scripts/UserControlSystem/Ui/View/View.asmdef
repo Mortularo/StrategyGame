@@ -1,7 +1,17 @@
 {
     "name": "View",
     "rootNamespace": "",
+<<<<<<< Updated upstream
     "references": [],
+=======
+    "references": [
+        "GUID:fa9b46769359a6549ad7bbf3c59becd2",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:560b04d1a97f54a4e82edc0cbbb69285",
+        "GUID:0d8beb7f090555447a6cf5ce9e54dbb4",
+        "GUID:47e17cb1311e06b42b40b1cc52c0eb9d"
+    ],
+>>>>>>> Stashed changes
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
