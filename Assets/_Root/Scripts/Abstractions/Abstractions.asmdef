@@ -1,7 +1,13 @@
 {
     "name": "Abstractions",
     "rootNamespace": "",
+<<<<<<< Updated upstream
     "references": [],
+=======
+    "references": [
+        "GUID:560b04d1a97f54a4e82edc0cbbb69285"
+    ],
+>>>>>>> Stashed changes
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

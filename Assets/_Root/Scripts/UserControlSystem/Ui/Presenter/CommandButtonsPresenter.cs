@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 using UnityEngine;
 using UserControlSystem;
 using Abstractions.Commands;
@@ -17,6 +18,26 @@ public class CommandButtonsPresenter : MonoBehaviour
         _selectable.OnSelected += onSelected;
         onSelected(_selectable.CurentValue);
         _view.OnClick += onButtonClick;
+=======
+using System;
+using System.Collections.Generic;
+using UniRx;
+using UnityEngine;
+using Zenject;
+public class CommandButtonsPresenter : MonoBehaviour
+{
+    [Inject] private IObservable<ISelectable> _selectedValues;
+    [SerializeField] private CommandButtonsView _view;
+    [Inject] private CommandButtonsModel _model;
+    private ISelectable _currentSelectable;
+    private void Start()
+    {
+        _view.OnClick += _model.OnCommandButtonClicked;
+        _model.OnCommandSent += _view.UnblockAllInteractions;
+        _model.OnCommandCancel += _view.UnblockAllInteractions;
+        _model.OnCommandAccepted += _view.BlockInteractions;
+        _selectedValues.Subscribe(onSelected);
+>>>>>>> Stashed changes
     }
     private void onSelected(ISelectable selectable)
     {
@@ -24,6 +45,13 @@ public class CommandButtonsPresenter : MonoBehaviour
         {
             return;
         }
+<<<<<<< Updated upstream
+=======
+        if (_currentSelectable != null)
+        {
+            _model.OnSelectionChanged();
+        }
+>>>>>>> Stashed changes
         _currentSelectable = selectable;
         _view.Clear();
         if (selectable != null)
@@ -31,6 +59,7 @@ public class CommandButtonsPresenter : MonoBehaviour
             var commandExecutors = new List<ICommandExecutor>();
             commandExecutors.AddRange((selectable as
             Component).GetComponentsInParent<ICommandExecutor>());
+<<<<<<< Updated upstream
             _view.MakeLayout(commandExecutors);
         }
     }
@@ -77,4 +106,10 @@ public class CommandButtonsPresenter : MonoBehaviour
             $"Unknown type of commands executor: { commandExecutor.GetType().FullName }!");
     }
 
+=======
+            var queue = (selectable as Component).GetComponentInParent<ICommandsQueue>();
+            _view.MakeLayout(commandExecutors, queue);
+        }
+    }
+>>>>>>> Stashed changes
 }
