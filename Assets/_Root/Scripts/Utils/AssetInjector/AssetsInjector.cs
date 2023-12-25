@@ -1,6 +1,11 @@
+<<<<<<< Updated upstream:Assets/_Root/Scripts/Utils/AssetInjector/AssetsInjector.cs
 ﻿using System;
 using System.Reflection;
 
+=======
+using System;
+using System.Reflection;
+>>>>>>> Stashed changes:Assets/_Root/Scripts/Utils/AssetsInjector/AssetsInjector.cs
 public static class AssetsInjector
 {
     private static readonly Type _injectAssetAttributeType = typeof(InjectAssetAttribute);
@@ -21,11 +26,19 @@ public static class AssetsInjector
                     continue;
                 }
                 var objectToInject = context.GetObjectOfType(fieldInfo.FieldType,
+<<<<<<< Updated upstream:Assets/_Root/Scripts/Utils/AssetInjector/AssetsInjector.cs
                     injectAssetAttribute.AssetName);
+=======
+                injectAssetAttribute.AssetName);
+>>>>>>> Stashed changes:Assets/_Root/Scripts/Utils/AssetsInjector/AssetsInjector.cs
                 fieldInfo.SetValue(target, objectToInject);
             }
             targetType = targetType.BaseType;
         }
         return target;
     }
+<<<<<<< Updated upstream:Assets/_Root/Scripts/Utils/AssetInjector/AssetsInjector.cs
 }
+=======
+}
+>>>>>>> Stashed changes:Assets/_Root/Scripts/Utils/AssetsInjector/AssetsInjector.cs
